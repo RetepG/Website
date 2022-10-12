@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="appointment.css">
+</head>
+
+<body>
+    <fieldset class="page2">
+        <nav class="bar">
+            <h1>Life of Teddy</h1>
+            <a href="Teddy Playdate.html">Home</a>
+            <a href="appointment.html">Appointment</a>
+            <a href="products.html">Grooming-Products</a>
+            <a href="pictures.html">Gallery</a>
+        </nav>
+
+        <div class="schedule">
+            <p>Schedule your meet and greet with the almighty Teddy Today!</p>
+        </div>
+
+        <form action="Form-info" method="post">
+            <fieldset class="form">
+                <legend img src="teddy.jpg" alt="teddy">Teddy</legend>
+
+                <div class="first">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="first_name">
+                </div>
+
+                <div class="last">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="last_name">
+                </div>
+
+                <div class="email">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="emailaddress" name="email_address">
+                </div>
+
+                <h2>Check all that apply!</h2>
+                <h2>Health Concerns</h2>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="vaccinated" name="vaccinated">
+                    <label for="vaccinated">Vaccinated</label><br>
+                    <input type="checkbox" id="fur" name="fur">
+                    <label for="fur">Allgeries to dog fur</label><br>
+                    <input type="checkbox" id="Asthma" name="Asthma">
+                    <label for="Asthma">Asthma</label><br>
+                </div>
+
+                <div class="response">
+                    <label for="paragraph">Reason for visit</label><br>
+                    <textarea id="paragraph" name="para"></textarea>
+                </div>
+
+                <div class="button">
+                    <button type="button" onclick="alert('Congrats your appointment is set!')">Submit!</button>
+                </div>
+            </fieldset>
+        </form>
+    </fieldset>
+</body>
+
+</html>
